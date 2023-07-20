@@ -25,7 +25,6 @@ public class Board : MonoBehaviour
 
     List <string> validWords;
 
-    [SerializeField]
     private string word;
 
     public GameManager gameManager = GameManager.Instance;
